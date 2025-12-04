@@ -8,8 +8,8 @@ r = int(input("Enter the radius:"))
 area_rectangle = l * b
 area_semi_circle = (3.14 * r * r) / 2
 
-perimeter_rect = 2 * (l + b)
-perimeter_semi_circle = 3.14 * r + b
+perimeter_rect = 2*l + b
+perimeter_semi_circle = 3.14 * r 
 
 # total area and perimeter
 area = area_rectangle + area_semi_circle
