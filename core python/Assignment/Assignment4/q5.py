@@ -1,7 +1,6 @@
 # WAP to print a fibonacci series until n
 n = int(input("Enter a number: "))
 a, b = 0, 1
-while a < n:
-    print(a)
+for i in range(n):
+    print(a, end=" ")
     a, b = b, a + b
-
