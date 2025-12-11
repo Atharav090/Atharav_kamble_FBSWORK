@@ -1,0 +1,11 @@
+1. prime number
+2. palindrome
+3. perfect number
+4. strong number
+5. armstrong
+6. fibonacci series 
+
+### for all questions
+#first n  
+#check number
+#given range
