@@ -1,1 +1,0 @@
-# WAP to print multiplication table (2 * 1 = 2)
