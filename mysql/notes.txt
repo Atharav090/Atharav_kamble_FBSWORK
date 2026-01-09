@@ -1,0 +1,55 @@
+                                                                                22/12/2025
+basic idea of these terms - 
+DB - a container to store the data.
+DBMS - A system that knows how to interact with data
+RDBMS - A system that know how to interact with relational/related data
+MYSQL - (Type of RDBMS) 
+SQL - structred query language. A language used to instruct RDBMS 
+
+
+QUERY EXECUTION FLOW - 
+1. query input
+2. query parsing
+3. query optimzer
+4. query execution
+5. query output/ result set 
+
+
+* SQL stores data in tabular format.
+* Tables are easy to understand than other formats.
+
+table | columns | rows |
+Entity (table name)
+BOOK
+
+Attributes (column name)
+BOOK - 
+ISBN | B_name | Auth_Name | Price | Category | Publisher | Rating | Production_cost | 
+
+Rows -
+data about entity.
+01 | book1 | auth1 | 500 | novel | publisher1 | 4.5 |
+(for library system production cost may not be required. so values can be ignored or null.)
+
+
+Abstractions means selective ignorance.
+
+
+Types of relationship in RDBMS (Cardinality - relationship alternative word)
+1. one to one 
+2. one to many
+3. many to many
+
+
+E-R Diagram 
+pname  Pid  (Attributes)
+   \  /
+ player  -------- Plays for --------- Team
+Entity1          relationship        Entity2
+
+shapes to denote
+rectangle - Entity
+oval - Attributes
+diamond - relationship
+
+(5 examples of 1 to 1 relationships.)

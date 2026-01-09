@@ -1,0 +1,70 @@
+1. select * from Employees order by salary desc;
+
+2. select * from Employees order by salary asc limit 5;
+
+3. select * from Employees order by salary asc limit 5 offset 3;
+
+4. select department, count(*) as employee_count from Employees group by department;
+
+5.select department, avg(salary) as average_salary from Employees group by department having avg(salary) > 50000;
+
+6. select product_name from Products where product_name like "%Laptop%";
+
+7. select substring(student_name, 1, 3) as first_three_chars from Students;
+
+8. select Student_name from Students where student_name like "A%";
+
+9. select count(order_id) as total_orders from Orders group by Months having count(order_id) > 100; (considering month column in table)
+
+10. select count(sales_amount) as Total_sales, avg(sales_amount) as avg_sales from Sales group by category having count(sales_amount) > 100000
+
+11. select * from Employees where salary between 30000 and 60000;
+
+12. select * from Employee where department not in ("HR", "Admin");
+
+13. select * from Students where email_id is NULL;
+
+14. select * from Employees where department_id in (1, 3);
+
+15. select * from Employees where age > 25 and salary < 50000;
+
+16. select department, max(salary) as Maximum_salary from Employee group by department;
+
+17. select city, count(student_id) as total_student from Students group by city;
+
+18. select min(salary) as Min_salary, max(salary) as Max_salary, avg(salary) as Avg_salary from Employee;
+
+19. select department, count(emp_id) as Total_employee from Employee group by department having count(emp_id) > 5;
+
+20. select department, sum(Salary) as Total_salary from Employees group by department order by total(salary) desc;
+
+21. select upper(employee_name) as employee_name_upper
+from Employees;
+
+22. select emp_name length(emp_name) as name_length from Employees;
+
+23. select student_name, right(student_name, 2) as last_two_chars from students;
+
+24. select * from Employees order by salary asc limit 3;
+
+25. select * from products order by price asc, product_name desc; 
+
+26. HAVING
+
+27. COUNT()
+
+28. IS NULL
+
+29. ORDER BY
+
+30. check a range of values
+
+31. AVG()
+
+32. GROUP BY
+
+33. LIMIT
+
+34. LIKE
+
+35. Total number of rows 
